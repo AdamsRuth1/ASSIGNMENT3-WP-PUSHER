@@ -1,146 +1,146 @@
 * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: "Lato";
-        }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+}
 
-        :root {
+:root {
 
-        }
+}
 
-        body {
-            margin: 0;
-            height: 100mvh;
-            width: 100%;
-        }
+body {
+    margin: 0;
+    height: 100mvh;
+    width: 100%;
+}
 
-        .main-container {
-            width: 1440px;
-            height: 1170px;
-            background: #F5F8FA;
-            padding: 25px;
-            margin-left: 25%;
-        }
+.main-container {
+    width: 1440px;
+    height: 1170px;
+    background: #F5F8FA;
+    padding: 25px;
+    margin-left: 25%;
+}
 
-        nav {
-            display: flex;
-            justify-content: space-between;
-        }
+nav {
+    display: flex;
+    justify-content: space-between;
+}
 
-        .logo {
-            width: 200px;
-            height: 39px;
-            margin-left: 40px;
-            margin-top: 30px;
+.logo {
+    width: 200px;
+    height: 39px;
+    margin-left: 40px;
+    margin-top: 30px;
 
-        }
+}
 
-        ul {
-            display: flex;
-            width: 476px;
-            height: 40px;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 30px;
-        }
-
-        nav ul li {
-            list-style: none;
-
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #1D2C3C;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            letter-spacing: -0.01px;
-        }
-
-        .account-button {
-            width: 91px;
-            height: 40px;
-            border: 2px solid #646E7A;
-            border-radius: 6px;
-            margin-right: 40px;
-        }
-
-        .line {
-            width: 1358px;
-            height: 2px;
-            background: #E0E6EA;
-            margin-left: 42px;
-            margin-top: 20px;
-        }
-
-        .main-sec {
-            width: 892px;
-            height: 795px;
-            display: flex;
-            margin-left: 256px;
-            margin-top: 118px;
-            background-color: white;
-        }
-
-        .checkout {
-            color: #1D2C3C;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            font-size: 30px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            margin-left: 48px;
-            margin-top: 41px;
-        }
-
-        .checkline {
-            width: 580px;
-            height: 2px;
-            background: #F5F7FA;
-            margin-top: 24px;
-        }
-
-        .basic-div,
-        .payment-div,
-        .card-details {
-            display: flex;
-            margin-left: 49px;
-            margin-top: 35px;
-        }
-        
-        .counter {
-            display: flex;
-    justify-content: center;
+ul {
+    display: flex;
+    width: 476px;
+    height: 40px;
+    justify-content: space-between;
     align-items: center;
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            border: 1px solid #548BC5;
-            text-align: center;
-            color: #548BC5;
-            align-items: center;
-        }
-       
+    margin-top: 30px;
+}
 
-        .basic{
-            color: #1D2C3C;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            letter-spacing: -0.16px;
-            margin-left: 10px;   
-        }
-        .label-input-div{
-            display: flex;
-            margin-top: 8px;
-            
-        }
-        .label-input-div input{
-            width: 227px;
+nav ul li {
+    list-style: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1D2C3C;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.01px;
+}
+
+.account-button {
+    width: 91px;
+    height: 40px;
+    border: 2px solid #646E7A;
+    border-radius: 6px;
+    margin-right: 40px;
+}
+
+.line {
+    width: 1358px;
+    height: 2px;
+    background: #E0E6EA;
+    margin-left: 42px;
+    margin-top: 20px;
+}
+
+.main-sec {
+    width: 892px;
+    height: 795px;
+    display: flex;
+    margin-left: 256px;
+    margin-top: 118px;
+    background-color: white;
+}
+
+.checkout {
+    color: #1D2C3C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 48px;
+    margin-top: 41px;
+}
+
+.checkline {
+    width: 580px;
+    height: 2px;
+    background: #F5F7FA;
+    margin-top: 24px;
+}
+
+.basic-div,
+.payment-div,
+.card-details {
+    display: flex;
+    margin-left: 49px;
+    margin-top: 35px;
+}
+
+.counter {
+    display: flex;
+justify-content: center;
+align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #548BC5;
+    text-align: center;
+    color: #548BC5;
+    align-items: center;
+}
+
+
+.basic{
+    color: #1D2C3C;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.16px;
+    margin-left: 10px;   
+}
+.label-input-div{
+    display: flex;
+    margin-top: 8px;
+    
+}
+.label-input-div input{
+    width: 227px;
 height: 36px;
 margin-bottom: 30px;
 border-radius: 4px;
@@ -150,47 +150,47 @@ margin-left: 49px;
 margin-top: 5px;
 padding: 15px;
 
-        }
-        .lastname-div{
-            margin-left: -20px;
-        }
-        .label-input-div label,
-        .email-div label{
-            margin-left: 49px;
-            color: #1D2C3C;
+}
+.lastname-div{
+    margin-left: -20px;
+}
+.label-input-div label,
+.email-div label{
+    margin-left: 49px;
+    color: #1D2C3C;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-        }
-        /* ::placeholder{
-            margin-right: 10px;
-        } */
-        .email-div{
-            margin-bottom:41px;
-        }
-        .email-div input{
-            margin-left: 49px;
-            width: 370px;
-            margin-top: 5px;
+}
+/* ::placeholder{
+    margin-right: 10px;
+} */
+.email-div{
+    margin-bottom:41px;
+}
+.email-div input{
+    margin-left: 49px;
+    width: 370px;
+    margin-top: 5px;
 height: 36px;
 padding: 15px;
 border-radius: 4px;
 background: #EDEFF2;
 border: none;
-        }
-   
-        .payment-div input{
-            width: 483px;
+}
+
+.payment-div input{
+    width: 483px;
 height: 36px;
 border-radius: 4px;
 background: #EDEFF2;
 border: none;
 padding: 15px;
 
-        }
+}
 .buy-wp{
-    width: 483px;
+width: 483px;
 height: 52px;
 border-radius: 5px;
 background: #038E7D;
@@ -201,25 +201,25 @@ color: white;
 font-size: 18px;
 }
 .help-div{
-   display: flex;
-   margin: 126px;
-   margin-top: 24px;
+display: flex;
+margin: 126px;
+margin-top: 24px;
 }
 .question-mark{
-    display: flex;
-    justify-content: center;
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #548BC5;
+    text-align: center;
+    color: #548BC5;
     align-items: center;
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            border: 1px solid #548BC5;
-            text-align: center;
-            color: #548BC5;
-            align-items: center;
-            
+    
 }
 .question{
-    color: #646E7A;
+color: #646E7A;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -229,7 +229,7 @@ margin-left: 10px;
 width:  303px;
 }
 .question span{
-    font-weight: bold;
+font-weight: bold;
 }
 .powered{
 margin-left: -226px;
@@ -238,18 +238,18 @@ height: 20.101px;
 
 }
 .powered img{
-    margin-top: 46.6px;
-    
+margin-top: 46.6px;
+
 }
 .rightside{
-    width: 312px;
+width: 312px;
 height: 795px;
 border-radius: 0px 6px 6px 0px;
 background: #1179BF;
 }
 .freelancer-div{
-    font-style: normal;
-    width: 231px;
+font-style: normal;
+width: 231px;
 height: 152px;
 margin-top: 42px;
 margin-left: 44px;
@@ -263,12 +263,12 @@ letter-spacing: -0.01px;
 
 }
 .year-div{
-    display: flex;
-    margin-top: 18px;
+display: flex;
+margin-top: 18px;
 }
 
 .renewal{
-    width:229px ;
+width:229px ;
 font-size: 16px;
 font-style: italic;
 font-weight: 400;
@@ -277,29 +277,29 @@ letter-spacing: -0.008px;
 margin-top: 10px;
 }
 .checker{
-    display: flex;
-    color: white;
-    width: 170px;
+display: flex;
+color: white;
+width: 170px;
 height: 96px;
 margin-top: 36px;
 margin-left: 45px;
 }
 .checker-good{
-    display: flex;
-    flex-direction: column;
-    margin-right: 11px;
-    
-   
+display: flex;
+flex-direction: column;
+margin-right: 11px;
+
+
 }
 .checker-text{
 display: flex;
 flex-direction: column;
 }
 .shape{
-    margin-bottom: 15px;
+margin-bottom: 15px;
 }
 .checker-text p{
-    margin-bottom: 11px ;
+margin-bottom: 11px ;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -307,11 +307,11 @@ line-height: 24px; /* 150% */
 letter-spacing: -0.008px;
 }
 .checker-text span{
-    font-size: 16px;
+font-size: 16px;
 font-weight: 700;
 }
 .need-div{
-    font-size: 16px;
+font-size: 16px;
 font-style: normal;
 font-weight: 400;
 color: white;
@@ -320,17 +320,17 @@ margin-left: 46px;
 line-height: 24px;
 }
 .need-div span{
-    font-size: 16px;
+font-size: 16px;
 font-style: normal;
 font-weight: 700;
 }
 .switch{
-    font-size: 16px;
+font-size: 16px;
 font-style: italic;
 font-weight: 700;
 }
 .empty-div{
-    width: 224px;
+width: 224px;
 height: 2px;
 background-color: white;
 margin-left: 44px;
@@ -349,32 +349,32 @@ font-weight: 700;
 line-height: 24px;
 }
 .ftp span{
-    font-size: 18px;
+font-size: 18px;
 font-style: italic;
 font-weight: 700;
 }
 .profile{
-    display: flex;
-    margin-top: 17px;
-    align-items: center;
-    
+display: flex;
+margin-top: 17px;
+align-items: center;
+
 }
 .profile img{
-    border-radius: 50%;
-    margin-right: 14px;
+border-radius: 50%;
+margin-right: 14px;
 }
 .profile p{
-    font-size: 16px;
+font-size: 16px;
 font-style: normal;
 font-weight: 700;
 }
 .terms{
-    text-align: center;
-    font-weight: 400;
-    font-size: 14px;
-    color: #636B6F;
-    margin-top: 33px;
+text-align: center;
+font-weight: 400;
+font-size: 14px;
+color: #636B6F;
+margin-top: 33px;
 }
 .services{
-    color: #31708F;
+color: #31708F;
 }
