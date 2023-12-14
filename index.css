@@ -44,6 +44,10 @@ ul {
     margin-top: 30px;
 }
 
+nav ul li a:hover{
+    padding: 10px;
+    border: 2px solid black;
+}
 nav ul li {
     list-style: none;
 
@@ -58,10 +62,7 @@ nav ul li a {
     line-height: normal;
     letter-spacing: -0.01px;
 }
-nav ul li a:hover{
-    padding: 10px;
-    border: 2px solid black;
-}
+
 .account-button {
     width: 91px;
     height: 40px;
@@ -82,7 +83,7 @@ nav ul li a:hover{
     width: 892px;
     height: 795px;
     display: flex;
-    margin-left: 256px;
+    margin: auto;
     margin-top: 118px;
     background-color: white;
 }
@@ -181,10 +182,15 @@ border-radius: 4px;
 background: #EDEFF2;
 border: none;
 }
+
+.payment-label  label{
+    margin-left: 49px;
+}
+
 .payment-div{
     margin-bottom: 21px;
 }
-.payment-label input{
+.input2{
     width: 483px;
 height: 36px;
 border-radius: 4px;
@@ -193,11 +199,32 @@ border: none;
 padding: 15px;
 margin-left: 49px;
 margin-top: 5px;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+.input1{ 
+    border: #EDEFF2;
+    background: #EDEFF2;
+}
+.inputcv{
+    width: 30px;
+    border: #EDEFF2;
+    background: #EDEFF2;
+    margin-left: 120px;
+}
+.inputmm{
+    width: 50px;
+    border: #EDEFF2;
+    background: #EDEFF2;
+    margin-left: 100px;
+}
 
+.payment-div.input1{
+    width: 0;
 }
-.payment-label  label{
-    margin-left: 49px;
-}
+
+
 .buy-wp{
 width: 483px;
 height: 52px;
