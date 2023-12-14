@@ -178,15 +178,22 @@ border-radius: 4px;
 background: #EDEFF2;
 border: none;
 }
-
-.payment-div input{
+.payment-div{
+    margin-bottom: 21px;
+}
+.payment-label input{
     width: 483px;
 height: 36px;
 border-radius: 4px;
 background: #EDEFF2;
 border: none;
 padding: 15px;
+margin-left: 49px;
+margin-top: 5px;
 
+}
+.payment-label  label{
+    margin-left: 49px;
 }
 .buy-wp{
 width: 483px;
@@ -327,6 +334,13 @@ font-weight: 700;
 font-size: 16px;
 font-style: italic;
 font-weight: 700;
+margin-bottom: -6px;
+}
+.blueline{
+    width: 180px;
+height: 4px;
+border-bottom: 4px solid  #B9F5FF;
+opacity: 0.5036;
 }
 .empty-div{
 width: 224px;
