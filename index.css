@@ -58,7 +58,10 @@ nav ul li a {
     line-height: normal;
     letter-spacing: -0.01px;
 }
-
+nav ul li a:hover{
+    padding: 10px;
+    border: 2px solid black;
+}
 .account-button {
     width: 91px;
     height: 40px;
